@@ -146,10 +146,3 @@ News pipeline in brief:
 | Sharing | `html-to-image`, `react-easy-crop`, Web Share API, Open Graph renderer |
 | Video | Canvas, WebCodecs, `mp4-muxer`, Web Audio API (`OfflineAudioContext`), MediaRecorder fallback |
 | Hosting and CI | Firebase Hosting, GitHub Actions |
-
-## What I'd do next
-
-- **Automated evals for the editor and writer.** Quality is checked today by reading production logs and the live feed. A fixed set of past clusters with expected decisions would catch prompt regressions before deploy.
-- **Token and cost telemetry per story.** Log tokens per agent and per published story, so cost decisions rest on numbers instead of run counts and the billing dashboard.
-- **Unit tests for the pure pipeline functions.** Clustering, presort, the quota picker, the trust gate and the language guard have no I/O. They are the easiest code to test and the most expensive to get wrong.
-- **Embeddings for clustering.** Title word overlap misses the same event phrased differently, and cannot match a Macedonian headline to an English one. Multilingual embeddings would improve grouping and the duplicate check.

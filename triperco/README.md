@@ -131,10 +131,3 @@ Each layer only calls the layers below it. Each trip stage loads through its own
 | Accounts | better-auth with Google sign-in |
 | Hosting | Vercel, including Cron Jobs |
 | Tests | Vitest, Testing Library, jsdom |
-
-## What I'd do next
-
-- **An evaluation set for the brief.** Real trip sentences with expected briefs, tracking field accuracy, question quality and latency per model, so a model change is a measured decision.
-- **Product analytics.** See where people drop off between sentence, board, trip stages and save.
-- **End-to-end tests.** Browser tests for the full flow, from sign-in to a saved and shared trip.
-- **Payments for the planned subscription.** The pricing page commits to a subscription, never a commission. That needs billing and plan-based limits on top of the per-address ceiling.

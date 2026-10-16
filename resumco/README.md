@@ -141,10 +141,3 @@ The browser owns all state and orchestration; the server holds none. Each route 
 | Document output | @react-pdf/renderer, in the browser |
 | Tests | Vitest: 223 tests across 18 files, all passing (prompts, schemas, fit rules, registries, retries, refine, PDF read-back) |
 | Hosting | Vercel |
-
-## What I'd do next
-
-- **Live LLM evals.** Today's tests cover prompts, schemas and rules, not live model output. Next is an eval set of real resume and job pairs that measures score stability between runs and flags any invented fact.
-- **Rate limiting and bot protection** on the AI endpoints, which are public and need no sign-up.
-- **Privacy-friendly analytics**, aggregate and cookie-free, to see where people drop off.
-- **End-to-end browser tests** for the three flows, on top of the unit and PDF tests.
