@@ -21,4 +21,4 @@ Three live AI products I designed, built and run on my own, alongside my full-ti
 
 **Andrej Ivanov**, software engineer with more than 8 years in the industry, from business analysis and product work to full-stack engineering and AI products.
 
-[Portfolio](https://andrejivanov.vercel.app) · [LinkedIn](https://www.linkedin.com/in/andrejivanov98) · ivanovandrej10@yahoo.com
+[Portfolio](https://andrejivanov.com) · [LinkedIn](https://www.linkedin.com/in/andrejivanov98) · ivanovandrej10@yahoo.com
